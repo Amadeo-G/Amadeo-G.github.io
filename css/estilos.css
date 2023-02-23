@@ -420,7 +420,7 @@ form textarea {
   color: #22cf91;
 }
 
-/* For Mobile */
+/* Diseño responsivo */
 @media (max-width: 991px) {
   header {
     padding: 18px 4%;
@@ -531,7 +531,7 @@ form textarea {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 390px) {
   :root {
     --big-font: 1.7rem;
     --medium-font: 1.0rem;
