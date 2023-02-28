@@ -1,7 +1,7 @@
-
-
+/* Importé fuente Poppins*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-/* Reseteo de página*/
+
+/* Establecí estilos comunes a todos los elementos. Margenes y rellenos en cero, eliminé puntos de viñetas y subrayado de los enlaces; definí animaciones suaves y fuente a utilizar*/
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +13,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Para mejorar la legibilidad y el mantenimiento del código CSS, definí variables de CSS personalizadas utilizando la pseudo-clase :root. Estas variables se pueden utilizar en cualquier parte del código CSS para asignar valores comunes y reutilizables. Por ejemplo, si deseo cambiar el color principal del sitio web de #4036a5 a #ff0000, solo necesito cambiar el valor de la variable --main-color en una sola ubicación en lugar de buscar todas las propiedades CSS que utilizan este color. */
 :root {
   --main-color: #4036a5;
   --bg-color: #fff;
@@ -22,6 +23,7 @@
   --medium-font: 1.4rem;
   --p-font: 1.0rem;
 }
+
 
 section {
   padding: 50px 10%;
@@ -55,6 +57,7 @@ body {
   color: #7d96b4;
 }
 
+/*Establecí posición fija del header, ancho del 100% (equivalente a la ventana del navegador), ubicado arriba y a la derecha de la pantalla (propiedades top y right), apilado por encima de otros elementos (z-index). Utilicé el modelo de diseño flexible, con items alineados verticalmente en el centro, que se distribuirán horizontalmente dejando un espacio. Los cambios en el estilo tendrán transciciones de 0.5 segundos. Por último, agregué un sombreado para diferenciarlo de la sección siguiente*/
 header {
   position: fixed;
   width: 100%;
@@ -66,7 +69,7 @@ header {
   justify-content: space-between;
   background: var(--bg-color);
   padding: 13px 10%;
-  transition: 0.2s;
+  transition: 0.5s;
   box-shadow: -3px -3px 7px #ffffff73,
     2px 2px 5px rgba(94, 104, 121, 0.288);
 }
@@ -114,6 +117,7 @@ header.shadow {
   cursor: pointer;
 }
 
+/* Aquí establecí un diseño de cuadrícula que ocupa toda la ventana gráfica y tiene tres columnas con diferentes proporciones de ancho. Los elementos secundarios se centrarán verticalmente en la cuadrícula y tendrán un espacio de 1 rem entre ellos. */
 .inicio {
   position: relative;
   width: 100%;
