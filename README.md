@@ -5,7 +5,8 @@ HTML
 •	Modifiqué el atributo lang para establecer el idioma español.
 •	Utilicé indentado de 4 espacios
 •	Incluí imágenes utilizando los atributos “src” para determinar el origen de la imagen y “alt” para describir el contenido de la misma.
-•	
+•	Agregué favicon.
+•	Usé Open Graph data.
 •	Utilicé elementos de bloque ("p" y "div", por ejemplo), y elementos de línea("span", por ejemplo).
 •	En el formulario de contacto se ejemplifica la utilización de elementos anidados. La etiqueta "form" con los atributos action y method permite al usuario enviar datos al servidor de una manera segura y confiable (sin mostrar la información ingresada). El archivo PHP especificado en el atributo action procesará los datos enviados por el formulario utilizando el método HTTP POST especificado en el atributo method.
 •	

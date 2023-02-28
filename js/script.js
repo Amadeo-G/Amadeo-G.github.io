@@ -13,7 +13,7 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 };
 
-// Dark Mode / light mode
+// Modo oscuro
 let darkmode = document.querySelector("#darkmode");
 
 darkmode.onclick = () => {
