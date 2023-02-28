@@ -24,7 +24,7 @@ Repositorio para presentar proyecto final integrador correspondiente al curso "P
 •	Aprendí el concepto de *viewport* y su uso práctico, para evitar que el usuario escrolee de derecha a izquierda, y que sí pueda hacerlo de arriba hacia abajo, o de abajo hacia arriba.  
 • Utilicé media queries para aplicar estilos diferentes a pantallas pequeñas y más grandes.  
 
-## JacaScript  
+## JavaScript  
 • El script selecciona ciertos elementos HTML utilizando la función *document.querySelector()*.  
 • Luego, agrega varios eventos a la ventana del navegador, como *scroll* y *click*, para hacer que ciertos elementos cambien su apariencia o comportamiento en respuesta a determinadas acciones del usuario.  
 • El script incluye una función que cambia el tema de la página web de *modo oscuro* a *modo claro* y viceversa.
